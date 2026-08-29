@@ -1,13 +1,13 @@
 {
-  "name": "Pomelo Calculator",
-  "short_name": "PomeloCalc",
-  "description": "Tính toán số lượng bưởi một cách nhanh chóng và dễ dàng.",
+  "name": "Máy tính tháp bưởi",
+  "short_name": "Tính bưởi",
+  "description": "Tính nhanh số lượng bưởi theo cạnh và số tầng, dễ nhìn và dễ sử dụng.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#ffffff",
-  "theme_color": "#ffffff",
+  "background_color": "#f0f9ff",
+  "theme_color": "#0369a1",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
