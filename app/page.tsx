@@ -329,9 +329,8 @@ export default function CalculatorPage() {
                   <div className="grid grid-cols-2 gap-x-3 gap-y-3 sm:gap-6">
                     <NumberField
                       id="side1"
-                      label="Cạnh trên thứ nhất"
-                      shortLabel="Cạnh 1"
-                      helper="Số trái nằm trên cạnh thứ nhất của tầng trên cùng."
+                      label="Cạnh ngang"
+                      helper="Số trái nằm trên cạnh ngang của tầng trên cùng."
                       placeholder="Ví dụ: 5"
                       value={side1}
                       error={errors.side1}
@@ -344,9 +343,8 @@ export default function CalculatorPage() {
                     />
                     <NumberField
                       id="side2"
-                      label="Cạnh trên thứ hai"
-                      shortLabel="Cạnh 2"
-                      helper="Số trái nằm trên cạnh thứ hai của tầng trên cùng."
+                      label="Cạnh dọc"
+                      helper="Số trái nằm trên cạnh dọc của tầng trên cùng."
                       placeholder="Ví dụ: 6"
                       value={side2}
                       error={errors.side2}
@@ -528,11 +526,11 @@ export default function CalculatorPage() {
 
                         <dl className="mt-4 grid grid-cols-3 gap-2 border-y border-slate-200 py-3 text-center">
                           <div>
-                            <dt className="text-xs font-bold uppercase tracking-wide text-slate-500">Cạnh 1</dt>
+                            <dt className="text-xs font-bold uppercase tracking-wide text-slate-500">Cạnh ngang</dt>
                             <dd className="mt-1 text-lg font-bold tabular-nums text-slate-900">{item.side1}</dd>
                           </div>
                           <div className="border-x border-slate-200">
-                            <dt className="text-xs font-bold uppercase tracking-wide text-slate-500">Cạnh 2</dt>
+                            <dt className="text-xs font-bold uppercase tracking-wide text-slate-500">Cạnh dọc</dt>
                             <dd className="mt-1 text-lg font-bold tabular-nums text-slate-900">{item.side2}</dd>
                           </div>
                           <div>
