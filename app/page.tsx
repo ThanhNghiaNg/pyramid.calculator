@@ -329,7 +329,7 @@ export default function CalculatorPage() {
                   <div className="grid grid-cols-2 gap-x-3 gap-y-3 sm:gap-6">
                     <NumberField
                       id="side1"
-                      label="Cạnh ngang"
+                      label="Cạnh ngang trên"
                       helper="Số trái nằm trên cạnh ngang của tầng trên cùng."
                       placeholder="Ví dụ: 5"
                       value={side1}
@@ -343,7 +343,7 @@ export default function CalculatorPage() {
                     />
                     <NumberField
                       id="side2"
-                      label="Cạnh dọc"
+                      label="Cạnh dọc trên"
                       helper="Số trái nằm trên cạnh dọc của tầng trên cùng."
                       placeholder="Ví dụ: 6"
                       value={side2}
@@ -526,11 +526,11 @@ export default function CalculatorPage() {
 
                         <dl className="mt-4 grid grid-cols-3 gap-2 border-y border-slate-200 py-3 text-center">
                           <div>
-                            <dt className="text-xs font-bold uppercase tracking-wide text-slate-500">Cạnh ngang</dt>
+                            <dt className="text-xs font-bold uppercase tracking-wide text-slate-500">Cạnh ngang trên</dt>
                             <dd className="mt-1 text-lg font-bold tabular-nums text-slate-900">{item.side1}</dd>
                           </div>
                           <div className="border-x border-slate-200">
-                            <dt className="text-xs font-bold uppercase tracking-wide text-slate-500">Cạnh dọc</dt>
+                            <dt className="text-xs font-bold uppercase tracking-wide text-slate-500">Cạnh dọc trên</dt>
                             <dd className="mt-1 text-lg font-bold tabular-nums text-slate-900">{item.side2}</dd>
                           </div>
                           <div>
